@@ -7,7 +7,7 @@ import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 import PDFOutlineViewer from "./PDFOutlineViewer";
 pdfjs.GlobalWorkerOptions.workerSrc =
-    `https://unpkg.com/pdfjs-dist@4.9.155/build/pdf.worker.min.mjs`;
+    `https://unpkg.com/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs`;
 
 const PdfViewer = () => {
     const PdfViewerRef = useRef(null);
